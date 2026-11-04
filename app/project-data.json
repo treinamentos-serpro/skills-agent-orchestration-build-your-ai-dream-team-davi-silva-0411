@@ -1,0 +1,70 @@
+{
+  "projects": [
+    {
+      "id": "docs-refresh",
+      "name": "Docs Refresh",
+      "owner": "Mona",
+      "status": "On Track",
+      "priority": "High",
+      "recentActivity": "Merged the new contributor guide and updated the README links.",
+      "summary": "Rewrite onboarding docs so new contributors can open their first pull request in under an hour.",
+      "progress": 70,
+      "lastUpdated": "2026-11-02"
+    },
+    {
+      "id": "ci-speedup",
+      "name": "CI Pipeline Speedup",
+      "owner": "Hubot",
+      "status": "At Risk",
+      "priority": "High",
+      "recentActivity": "Caching experiment cut build time by 20% but flaky tests are back.",
+      "summary": "Bring the median CI run under five minutes by caching dependencies and splitting test jobs.",
+      "progress": 45,
+      "lastUpdated": "2026-11-03"
+    },
+    {
+      "id": "accessibility-audit",
+      "name": "Accessibility Audit",
+      "owner": "Ada Lovelace",
+      "status": "Blocked",
+      "priority": "Medium",
+      "recentActivity": "Waiting on design tokens before fixing the remaining contrast issues.",
+      "summary": "Audit every public page against WCAG 2.2 AA and fix the highest-impact findings.",
+      "progress": 30,
+      "lastUpdated": "2026-10-29"
+    },
+    {
+      "id": "release-notes-bot",
+      "name": "Release Notes Bot",
+      "owner": "Octocat",
+      "status": "Completed",
+      "priority": "Low",
+      "recentActivity": "Shipped v1.0 and published the first automated release notes.",
+      "summary": "Generate release notes automatically from merged pull request labels.",
+      "progress": 100,
+      "lastUpdated": "2026-10-25"
+    },
+    {
+      "id": "issue-triage",
+      "name": "Issue Triage Rotation",
+      "owner": "Grace Hopper",
+      "status": "On Track",
+      "priority": "Medium",
+      "recentActivity": "Triaged 34 new issues and added good-first-issue labels to 6.",
+      "summary": "Keep the issue backlog healthy with a weekly rotating triage owner.",
+      "progress": 60,
+      "lastUpdated": "2026-11-01"
+    },
+    {
+      "id": "dependency-upgrades",
+      "name": "Dependency Upgrades",
+      "owner": "Linus",
+      "status": "At Risk",
+      "priority": "Low",
+      "recentActivity": "Major framework upgrade needs a migration plan before it can merge.",
+      "summary": "Move all packages to supported versions and enable automated update pull requests.",
+      "progress": 20,
+      "lastUpdated": "2026-10-30"
+    }
+  ]
+}
